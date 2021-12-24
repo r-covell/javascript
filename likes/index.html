@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="page">
+
+    <div class="nav"> <h1>Network</h1> </div>
+    <div class="main">
+    <div class="column-one">
+        <div class="profile">
+            <img src="img/user-circle.png" alt="profile">
+            <p><a href="#">Add an avatar</a></p>
+            <h2>James Doe</h2>
+        </div>
+    </div>
+
+    <div class="column-two">
+        <h1 class="feed">Your Feed</h1>
+        <div class="post">
+            <div class="row-one">
+            <h1 class="name">Neil M</h1>
+            <div class="btn">
+                <spans id="like-one">9 </spans><p> like(s)</p>
+                <button class="likes" onclick="likeIt(Element)">likes</button>
+            </div>
+            <!-- ^^^6button -->
+            </div>
+            <div class="row-two"><h3>I just set up this new discord bot,let me<br> know what you all think.<a href="#">link</a></h3></div>
+        </div>
+<!-- ^^^^^one -->
+        <div class="post">
+            <div class="row-one">
+            <h1 class="name">Nichole K</h1>
+            <div class="btn">
+                <spans id="like-two">12 </spans><p> like(s)</p>
+            <button class="likes" onclick="likeIt()">likes</button>
+            </div>
+            <!-- ^^^button -->
+            </div>
+            <div class="row-two"><h3>Just finished my <a href="#">next comic</a>, check it out.</h3></div>
+        </div>
+<!-- ^^^^two -->
+        <div class="post">
+            <div class="row-one">
+            <div class="btn">
+            <spans id="like-three">9 </spans><p> like(s)</p>
+            <button class="likes" onclick="likeIt()">likes</button>
+            </div>
+            <!-- ^^^button -->
+            </div>
+            <div class="row-two"><h3>I can't stop listening to the <a href="#">new album</a>. <br>Who else is liking it?</h3></div>
+        </div>
+<!-- ^^^^three -->
+    </div>
+<!-- ^^^^main end -->
+</div>
+<!-- ^^^column two end -->
+    </div>
+    <!--^^^ page end -->\
+    <script src="script.js"></script>
+</body>
+</html>

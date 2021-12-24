@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.page{
+    width: 1000px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+.nav{
+    height: 60px;
+    width: 1000px;
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.profile{
+    height: 200px;
+    width: 140px;
+    border: #000000 2px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top:65px;
+}
+img{
+    height: 50px;
+    width: 50px;
+}
+.post{
+    height: 150px;
+    width: 500px;
+    border: solid 2px #000000;
+    margin-bottom: 20px;
+}
+.row-one{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.row-two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.likes{
+    height:25px;
+    width:40px;
+    background-color: #ffd966;
+    box-shadow: #000000 3px 2px;
+}
+/* #like-two{
+    height:25px;
+    width:40px;
+    background-color: #ffd966;
+    box-shadow: #000000 3px 2px;
+}
+#like-three{
+    height:25px;
+    width:40px;
+    background-color: #ffd966;
+    
+    box-shadow: #000000 3px 2px;
+} */
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+.btn{
+    display: flex;
+}
+
+.feed{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
